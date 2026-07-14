@@ -1,24 +1,26 @@
 import { ScrollReveal } from "./ScrollReveal";
 
+// Демо-контакты: значения-заглушки, ссылки инертны (ведут на саму секцию),
+// чтобы деморолик/публичный превью не уводили на реальные каналы компании.
 const CHANNELS = [
   {
     label: "telegram",
-    value: "@OverheardinQ",
-    href: "https://t.me/OverheardinQ",
-    external: true,
+    value: "@qventure",
+    href: "#contactus",
+    external: false,
     primary: true,
   },
   {
     label: "телефон",
-    value: "+7 931 324 4444",
-    href: "tel:+79313244444",
+    value: "+7 900 000 00 00",
+    href: "#contactus",
     external: false,
     primary: false,
   },
   {
     label: "почта",
-    value: "partner@qventure.ru",
-    href: "mailto:Partner@qventure.ru",
+    value: "hello@qventure.demo",
+    href: "#contactus",
     external: false,
     primary: false,
   },
